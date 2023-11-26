@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 14px;
+}
+.container-main{
+    width: 1600px;
+    margin: 0 auto;
+}
+.container{
+    width:1170px;
+    margin: 0 auto;
+}
+.header{
+    align-items: center;
+    display: flex;
+    height:80px ;
+}
+.WebStudio{
+    font-size: 26px;
+    width:145px;
+    height:31px;
+}
+.menu{
+    width: 293px;
+    margin: auto 332px auto 93px;
+}
+.ul-link{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+}
+.text-align{
+    text-decoration: none;
+    color: #212121;
+}
+.menu-item{
+    margin-right: 62px;
+}
+.text-s{
+    color: #2196F3;
+}
+.menu-link{
+    color: #757575;
+} 
+span {
+    color: #2196F3;
+}
+.hero {
+    width: 1600px;
+    height: 600px;
+    padding: 200px 452px 280px;
+}
+.text-item{ 
+    margin-bottom: 0;
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 136.364% */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+.hero{
+    background: #2F303A;
+}
+.btn {
+    padding: 30px 248px 0 ;
+}
+.button{ 
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background: #2196F3;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+}
+.section1 {
+    display: flex;
+    margin-top: 79px;
+gap: 30px;
+}
+.section1 .block h3 {
+    color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.section1 .block p {
+    color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+.section2 h2 {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+.imgs{
+
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+.imgs img {   
+    border-radius: 6px;
+    width: 370px;
+}
