@@ -1,0 +1,81 @@
+/* h1.active {
+  background-color: yellow;
+} */
+
+/* .box.active {
+  background-color: yellow;
+}
+.block {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 0 auto;
+} */
+/* .wrapper {
+  width: 500px;
+  margin: 0 auto;
+}
+.form {
+  border: 1px solid black;
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+  padding-bottom: 26px;
+}
+label,
+input {
+  width: 400px;
+  margin: 0 auto;
+  height: 40px;
+}
+button {
+  height: 40px;
+  width: 408px;
+  margin: 0 auto;
+}
+h2,
+label {
+  text-align: center;
+  font-size: 24px;
+}
+.todo-list {
+  width: 458px;
+  border: 1px solid black;
+  height: 40px auto;
+  padding: 20px;
+  display: grid;
+  gap: 16px;
+}
+.todo-item {
+  width: 300px;
+  margin: 0 auto;
+  height: 35px;
+  border: 1px solid black;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+} */
+
+/* ===---=== */
+.container {
+  border: 3px solid yellow;
+  padding: 3em;
+}
+ul {
+  width: 20vw;
+  margin: 0 auto;
+  padding: 0;
+  border: 3px solid red;
+  list-style: none;
+}
+li {
+  margin: 1.5em;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px 0;
+}
+
+#loader,
+#output {
+  display: none;
+}
