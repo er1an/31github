@@ -40,11 +40,11 @@
 //     console.log("No fuel left");
 //   }
 // };
-// const bmw = new Auto("BMW", "2020", "red", 10);
-// bmw.showInfo();
-// bmw.drive();
-// bmw.showInfo();
-// bmw.drive();
+const bmw = new Auto("BMW", "2020", "red", 10);
+bmw.showInfo();
+bmw.drive();
+bmw.showInfo();
+bmw.drive();
 
 const erlan = new String("ggdfgdgdgfd");
 console.log(erlan);
