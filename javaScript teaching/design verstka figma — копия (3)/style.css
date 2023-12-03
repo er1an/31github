@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: #222222;
+  padding-bottom: 58px;
+  height: 100%;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.nav_ul {
+  display: flex;
+  justify-content: space-between;
+}
+.logo__line {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.line {
+  width: 0;
+  height: 33px;
+  border: 1px solid #ffffff;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+.logo__line .__p {
+  width: 189px;
+  height: 36px;
+  margin-top: -15px;
+  margin-left: 21px;
+}
+.logo__line .__p p {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  /* or 112% */
+  color: #2194ff;
+}
+.contact .tel {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #f1f1f1;
+}
+.contact p a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  color: #2194ff;
+  margin-top: -22px;
+}
+.contact .support {
+  margin-top: -22px;
+}
+.content {
+  margin-top: 33px;
+}
+.content h1 {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 63px;
+  /* or 98% */
+  color: #2194ff;
+  margin-top: -0.5px;
+}
+.cont1 {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.content h2 {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f1f1f1;
+
+  margin-top: -20px;
+}
+.weather_icons {
+  margin-top: -6px;
+  display: flex;
+  gap: 34px;
+}
+.main_img {
+  position: absolute;
+  background-image: url("../img/bus.png");
+  background-repeat: no-repeat;
+  width: 1037px;
+  height: 477px;
+  margin-left: 400px;
+}
+.h2_icon {
+  display: flex;
+}
+.img_str {
+  margin-top: -16px;
+}
+.button {
+  width: 395px;
+  height: 87px;
+  margin-top: -12px;
+
+  /* border-radius: 11px;
+background: linear-gradient(180deg, #2194FF -100%, #81C0FB 100%, #108CFF 100%); */
+
+  border: 10px solid transparent; /*2*/
+  background: linear-gradient(45deg, #2194ff, #1633da) border-box; /*3*/
+  -webkit-mask: 4 linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor; /*5'*/
+  mask-composite: exclude; /*5*/
+  border-radius: 11px;
+
+  color: #f1f1f1;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+
+  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #f1f1f1;
+}
+/* main {}
+.section__1 {
+    margin: 0;
+    padding: 0;
+ background: #2c3337;
+} */
